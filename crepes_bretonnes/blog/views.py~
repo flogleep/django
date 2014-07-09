@@ -1,0 +1,7 @@
+#-*- coding: utf-8 -*-
+
+from django.http import HttpResponse
+
+def home(request):
+    text = """<h1>Bienvenue sur mon blog !</h1>
+    
